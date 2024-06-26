@@ -1,0 +1,117 @@
+body {
+    background-color: #151721;
+}
+
+.logo {
+    font-family: "Poppins"; 
+    color: rgb(255, 255, 255); /* Fallback color */
+    font-size: 50px;
+    margin: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1{
+    font-family: "Poppins";
+    color: #F14C5C;
+}
+
+p {
+    font-family: "Poppins";
+    color: #ffffff;
+    font-size: 16px;
+    margin: 15px;
+    text-align: justify;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #D83C4A !important;
+    color: #ffffff !important;
+    border-radius: 0;
+    margin: 0 -0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-weight: 700;
+}
+
+.nav-pills .nav-link {
+    color: #ffffff !important; 
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.nav-pills .nav-link img {
+    margin-bottom: 0.5rem;
+}
+
+.header {
+    font-family: "Poppins";
+    font-size: 50px ;
+    color: #F14C5C;
+    margin-left:25rem;
+    margin-top:1.7rem;
+    pointer-events: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 6rem;
+    padding: 1rem 0.5rem;
+    background-color: #F14C5C;
+  }
+
+  .selectors-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-left: 6rem;
+    width: 16rem;
+    padding: 1rem 0.5rem;
+    background-color: #D83C4A;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: -1;
+}
+
+.selector-title {
+    font-weight: 300;
+    font-size: 13px;
+    width: 14rem;
+    font-family: Poppins;
+    text-align: right;
+    margin-left: -0rem;
+    color: #ffffff;
+    pointer-events: none;
+}
+
+.custom-tabs-container {
+    margin-top: 1rem !important;
+    height: 44px !important;
+    margin-left: 25rem !important;
+    width: 50rem !important;
+    background-color: #151721 !important;
+}
+
+.custom-tab {
+    border: 0 !important;
+    font-family: "Poppins" !important;
+    padding: 3px !important;
+    background-color: #151721 !important;
+    color: #666666 !important;
+    text-align: left !important;
+    border-bottom: 1px solid #666666 !important;
+}
+
+.custom-tab--selected {
+    border: 0 !important;
+    font-family: "Poppins" !important;
+    padding: 3px !important;
+    background-color: #151721 !important;
+    color: white !important;
+    text-align: left !important;
+    border-bottom: 1px solid #F14C5C !important;
+}
