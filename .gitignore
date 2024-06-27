@@ -1,1 +1,7 @@
 /Models
+
+# Ignore all .pyc files
+*.pyc
+
+# Ignore all :Zone.Identifier files
+*:Zone.Identifier
