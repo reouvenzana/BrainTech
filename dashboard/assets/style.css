@@ -1,5 +1,6 @@
 body {
     background-color: #151721;
+
 }
 
 .logo {
@@ -14,6 +15,10 @@ body {
 h1{
     font-family: "Poppins";
     color: #F14C5C;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 p {
@@ -75,6 +80,7 @@ p {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     z-index: -1;
+    pointer-events: none;
 }
 
 .selector-title {
@@ -114,4 +120,13 @@ p {
     color: white !important;
     text-align: left !important;
     border-bottom: 1px solid #F14C5C !important;
+}
+
+.markdown-card {
+    background-color: #202332;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #202332;
 }

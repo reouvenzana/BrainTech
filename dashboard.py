@@ -7,7 +7,7 @@ import vizro.models as vm
 import polars as pl
 from vizro.models.types import capture
 import vizro.plotly.express as px
-from time import sleep
+from dash import dcc
 
 #%%
 df = (pl
@@ -171,7 +171,7 @@ page = vm.Page(
         ),
         vm.Parameter(
             targets=["custom_ag_grid.topics"],
-            selector=vm.RadioItems(title="Hot Topics", options=dict_topics)
+            selector=vm.Dropdown(title="Hot topics", options=dict_topics, multi=False)
         )
     ],
 )
