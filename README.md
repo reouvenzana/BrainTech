@@ -1,6 +1,9 @@
+![image](https://github.com/reouvenzana/BrainTech---Graph-Customer-Knowledge-Platform/assets/90115772/97234fbb-0592-4f70-b11b-b5cbe004d4de)
+
+
 # BrainTech
 
-BrainTech is an innovative proof-of-concept (POC) project aimed at revolutionizing knowledge management and customer intelligence for tech consulting companies. This project extends my work at Kyndryl and leverages both real and synthetic data to create a comprehensive solution.
+BrainTech is an **early** innovative proof-of-concept (POC) project illustrating how tech consulting companies can leverage graphs for knowledge management and customer intelligence. This project extends my work at Kyndryl and leverages both real and synthetic data to create a comprehensive solution.
 
 ## Problem Statement
 
